@@ -24,18 +24,21 @@ body { margin: 0; padding-bottom: 3rem; font-family: -apple-system, BlinkMacSyst
 
 .speak {
     position: fixed;
-    left: 745px;
+    left: 748px;
 }
 
 .active {
     color: white;
     position: fixed;
-    left:800px;
+    left:750px;
+    top: 70px;
 }
 .activetxt {
+    font-weight: bold;
+    white-space: nowrap;
     color:white;
     position:fixed;
-    left:770px;
+    left:620px;
     top:70px;
 }
 .copyimg {

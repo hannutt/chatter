@@ -1,6 +1,10 @@
-Project keywords: Node.js, Jquery ioSocket, chat
+Project keywords: Node.js, Jquery ioSocket, chat, WebSocket
 
-Node.js java io Socket chat application. the program simulates chat services used in online services. This is the first version, so the features are very limited for now.
+Node.js and ioSocket chat application. the program simulates chat services used in online services. This is the first version, so the features are very limited for now.
+
+Example image of two users chatting via localhost. The icons to the right of the message can be used to copy text and translate text to speech.
+
+![alt text](chat.png)
 
 Main features at the moment:
 
@@ -19,3 +23,7 @@ CONVERT TEXT TO SPEECH
 The text of the message can also be converted to speech using the Speech Synthesis API.This feature also uses the Jquery click method
 in the same way as the text copy described above.
 After jquery has saved the text, the text is sent as a parameter to a JavaScript function that executes the Speech Synthesis API
+
+USER COUNTER
+
+The program uses a helper variable and the connect and disconnect methods of ioSockets to count users. the number of users is displayed in the user interface inside the html element.
